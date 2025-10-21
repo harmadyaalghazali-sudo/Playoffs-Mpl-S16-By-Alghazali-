@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.bracket {
+    display: flex;
+    justify-content: space-around;
+}
+
+.play-in,
+.upper-bracket {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.match {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.team {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.score {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
