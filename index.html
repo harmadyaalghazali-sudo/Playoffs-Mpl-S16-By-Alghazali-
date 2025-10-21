@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bracket MPL ID S16</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bracket Playoff MPL ID S16</h1>
+
+    <div class="bracket">
+        <div class="play-in">
+            <h2>Play-In Stage</h2>
+            <div class="match" id="evos-dewa">
+                <span class="team">EVOS</span>
+                <input type="number" class="score" id="evos-score" value="0">
+                <span>vs</span>
+                <input type="number" class="score" id="dewa-score" value="0">
+                <span class="team">DEWA</span>
+            </div>
+            <div class="match" id="ae-rrq">
+                <span class="team">Alter Ego</span>
+                <input type="number" class="score" id="ae-score" value="0">
+                <span>vs</span>
+                <input type="number" class="score" id="rrq-score" value="0">
+                <span class="team">RRQ</span>
+            </div>
+        </div>
+
+        <div class="upper-bracket">
+            <h2>Upper Bracket Semifinals</h2>
+            <div class="match" id="btr-tbd1">
+                <span class="team">BTR</span>
+                <input type="number" class="score" id="btr-score" value="0">
+                <span>vs</span>
+                <span class="team">TBD</span>
+                <input type="number" class="score" id="tbd1-score" value="0">
+            </div>
+            <div class="match" id="onic-tbd2">
+                <span class="team">ONIC</span>
+                <input type="number" class="score" id="onic-score" value="0">
+                <span>vs</span>
+                <span class="team">TBD</span>
+                <input type="number" class="score" id="tbd2-score" value="0">
+            </div>
+        </div>
+
+        <!-- Tambahkan struktur HTML untuk Lower Bracket dan Grand Final di sini -->
+
+    </div>
+
+    <button onclick="updateBracket()">Update Bracket</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
