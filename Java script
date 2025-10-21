@@ -1,0 +1,30 @@
+function updateBracket() {
+    // 1. Ambil skor dari input
+    const evosScore = parseInt(document.getElementById("evos-score").value);
+    const dewaScore = parseInt(document.getElementById("dewa-score").value);
+    const aeScore = parseInt(document.getElementById("ae-score").value);
+    const rrqScore = parseInt(document.getElementById("rrq-score").value);
+    const btrScore = parseInt(document.getElementById("btr-score").value);
+    const onicScore = parseInt(document.getElementById("onic-score").value);
+
+    // 2. Tentukan pemenang
+    let evosWin = evosScore > dewaScore;
+    let aeWin = aeScore > rrqScore;
+    let btrWin = btrScore > document.getElementById("tbd1-score").value;
+    let onicWin = onicScore > document.getElementById("tbd2-score").value;
+
+    // 3. Update bracket
+    if (evosWin) {
+        // Update tampilan bracket untuk menunjukkan EVOS menang
+    } else {
+        // Update tampilan bracket untuk menunjukkan DEWA menang
+    }
+
+    // Lakukan hal yang sama untuk pertandingan lainnya
+
+    // 4. Logika untuk memindahkan tim ke babak selanjutnya dan lower bracket
+    // (Ini adalah bagian yang paling kompleks dan perlu kamu kembangkan lebih lanjut)
+
+    // 5. Logika untuk menangani format BO3 dan BO5
+    // (Kamu perlu menyimpan informasi tentang format pertandingan dan menghitung jumlah kemenangan)
+}
